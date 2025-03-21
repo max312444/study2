@@ -3,7 +3,7 @@ import numpy as np
 
 # ✅ 1. 데이터 생성 (리스트 활용, numpy 함수 최소화)
 x_data = [np.random.rand() * 10 for _ in range(50)]  # 입력값 X (0~10 범위의 난수 50개)
-y_data = [2 * x + np.random.rand() * 4 for x in x_data]  # 실제값 Y (y = 2x + 노이즈)
+y_data = [2 * x + np.random.rand() * 5 for x in x_data]  # 실제값 Y (y = 2x + 노이즈)
 
 # ✅ 2. 학습 파라미터 초기화
 weight = 4  # 초기 가중치 (W)
