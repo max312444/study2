@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np # numpy
 import matplotlib.pyplot as plt
 from sklearn.linear_model import SGDRegressor
 from sklearn.metrics import mean_squared_error
