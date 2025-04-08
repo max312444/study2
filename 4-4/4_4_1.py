@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import SGDRegressor
 from sklearn.metrics import mean_squared_error
 
-# x: 0~10 사이 무작위 수 100개
+# x: 0~10 사이 무작위 수 10개
 # y: 2.5x + 약간의 노이즈
 np.random.seed(0)
 X = np.random.rand(3, 1) * 10
@@ -15,7 +15,7 @@ y = y.ravel() # SGDRegressor는 1차원 타겟값을 요구
 # print("--" * 10)
 # print(bar.ravel())
 
-# 모델 생성 후 하이퍼파라메터 설정
+# 모델 생성 후 하이퍼파라미터 설정
 model = SGDRegressor(max_iter=1000, # 학습 반복 횟수 (epoch 수)
                      learning_rate='constant',
                      eta0=0.01,    # 고정 학습률
