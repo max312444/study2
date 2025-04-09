@@ -11,6 +11,6 @@ b_true = 4
 
 print(X)
 print(X[0, 1])
-print(X[2, 0])
-print(X[:, 1])
+print(X[1, 0])
+print(X[:, 0] * 4)
 print(X[:, 0] * 5 + X[:, 1] * 3 + b_true)
