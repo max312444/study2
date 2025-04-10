@@ -9,6 +9,7 @@ X = np.random.rand(num_of_samples, num_of_features) * 10 # 10이 각가의 메�
 x_true = [5, 3]
 b_true = 4
 
+# 출력 값
 print(X)
 print(X[0, 1])
 print(X[1, 0])
