@@ -1,10 +1,10 @@
 
 samples = []
 y = []
-
+# 기본 값 설정
 w = [0.2, 0.3]
 b = 0.1
-
+# w 개수 2개 
 gradient_w = [0.0, 0.0]
 gradient_b = 0.0
 
