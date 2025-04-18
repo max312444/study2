@@ -6,4 +6,4 @@ np.random.seed(5)
 x = np.array([[1, 2],[3, 4]])
 y = np.array([[2], [3]])
 
-print(f"{x}\n{y}\n{x@y}")
+print(f"{x}\n{y}\n{x@y + 2}")
