@@ -24,7 +24,7 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-# 4. SGDRegressor 모델 정의 및 학습 / 여기서 문제 생길거임 바꾸셈
+# 4. SGDRegressor 모델 정의 및 학습 / 여기서 문제 생길거임 바꾸셈 이곳이 하이퍼파라미터임.
 model = SGDRegressor(
     max_iter=1000,
     tol=1e-4,  # 더 정밀한 수렴 기준
